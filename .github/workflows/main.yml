@@ -36,4 +36,4 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: deploy on site
-      run: surge ./build http://covid-19withreact.surge.sh/ --token ${{secrets.MY_TOKEN}}
+      run: surge ./build http://covid-19withreact.surge.sh/ --token ${{secrets.MY_SURGE_TOKEN}}
